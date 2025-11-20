@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_bloques_noticia_bloque_imagens",
+  "info": {
+    "displayName": "BloqueImagen"
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "caption": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

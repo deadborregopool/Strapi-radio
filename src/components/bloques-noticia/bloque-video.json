@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_bloques_noticia_bloque_videos",
+  "info": {
+    "displayName": "BloqueVideo"
+  },
+  "options": {},
+  "attributes": {
+    "url_o_embed": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

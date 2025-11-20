@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "eventos",
+  "info": {
+    "singularName": "evento",
+    "pluralName": "eventos",
+    "displayName": "Evento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre_evento": {
+      "type": "string"
+    },
+    "fecha_hora_inicio": {
+      "type": "datetime"
+    },
+    "ubicacion": {
+      "type": "string"
+    },
+    "noticias": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::noticia.noticia",
+      "inversedBy": "eventos"
+    }
+  }
+}
